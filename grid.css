@@ -1,0 +1,89 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: black;
+}
+.container{
+    color: aliceblue;    
+}
+.parent{
+    display: flex;
+    justify-content: center;
+    border: 1px solid white;
+    width: 45vw;
+    height: 45vh;
+    /* padding: 70px; */
+    align-items: center;
+    margin:200px;
+    margin-left:370px;
+    
+}
+.child1{
+    border: 2px solid white;
+    width: 35vw;
+    height: 45vh;
+    background-color: white;
+
+}
+.child2{
+    border: 1px solid black;
+    width: 37vw;
+    height: 45vh;
+    background-color: crimson;
+
+}
+.c1{
+   color: black;
+   font-weight: 800;
+   font-size: 25px;
+   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+   text-align: center;
+   padding-top: 30px;
+}
+.icons{
+    font-size: medium;
+    justify-content: space-evenly;
+    padding-top: 7px;
+}
+.details{
+    padding: 5px;
+}
+.pswrd{
+    font-size: 15px;
+    font-weight: 300;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+button{
+    padding: 5px;
+    border-radius: 50px;
+    margin: 10px;
+    width: 90px;
+    background-color:orangered;
+    color: white;
+    border: orangered;
+}
+.c2{
+    color: rgb(247, 243, 243);
+    font-weight: 800;
+    font-size: 25px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    padding-top: 70px;
+    
+}
+.text{
+    font-size: 12px;
+    font-weight: none;
+    font-family:'Times New Roman', Times, sans-serif;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.child2 button{
+    background-color:crimson;
+    border: 1px solid white;
+    width: 90px;
+    padding: 5px;
+}
